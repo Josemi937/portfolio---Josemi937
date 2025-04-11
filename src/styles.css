@@ -166,3 +166,12 @@ body.dark-mode #backToTop {
 #backToTop:hover {
   transform: scale(1.1);
 }
+/* Enlaces del navbar en modo claro */
+.navbar a {
+  color: black !important;
+}
+
+/* Enlaces del navbar en modo oscuro */
+body.dark-mode .navbar a {
+  color: white !important;
+}
