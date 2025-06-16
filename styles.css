@@ -152,11 +152,17 @@ h2:hover {
   animation: blink 1s step-start infinite;
 }
 .projects-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 24px;
-  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
 }
+
+.project {
+  width: calc(25% - 20px); /* 4 por fila con margen */
+  min-width: 250px;
+}
+
 
 
 /* Cards */
