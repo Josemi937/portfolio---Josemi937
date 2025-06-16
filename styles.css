@@ -151,18 +151,6 @@ h2:hover {
   display: inline-block;
   animation: blink 1s step-start infinite;
 }
-.projects-container {
-  display: flex;
-  gap: 20px; /* espacio entre las tarjetas */
-  flex-wrap: nowrap; /* evita que se vayan a la siguiente línea */
-  overflow-x: auto; /* scroll horizontal si no caben */
-  padding: 10px;
-}
-
-.project {
-  width: calc(25% - 20px); /* 4 por fila con margen */
-  min-width: 250px;
-}
 
 
 
