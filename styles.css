@@ -155,7 +155,7 @@ h2:hover {
   display: flex;
   gap: 20px; /* espacio entre las tarjetas */
   flex-wrap: nowrap; /* evita que se vayan a la siguiente línea */
-  overflow-x: auto; /* si no entran, se puede hacer scroll horizontal */
+  overflow-x: auto; /* scroll horizontal si no caben */
   padding: 10px;
 }
 
