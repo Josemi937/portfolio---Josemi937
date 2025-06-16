@@ -153,9 +153,10 @@ h2:hover {
 }
 .projects-container {
   display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
+  gap: 20px; /* espacio entre las tarjetas */
+  flex-wrap: nowrap; /* evita que se vayan a la siguiente línea */
+  overflow-x: auto; /* si no entran, se puede hacer scroll horizontal */
+  padding: 10px;
 }
 
 .project {
